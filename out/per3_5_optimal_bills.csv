@@ -1,0 +1,3 @@
+"archetype","sum.im.kwh","sum.ex.kwh","mean.fixed","mean.flex","mean.cosy","mean.go","mean.flux","mean.intel_flux","mean.agile_noflex","mean.SEG_out","mean.flux_out","mean.intel_flux_out","mean.agile_out","mean.outgoing_oct","mean.outgoing_oct_lite","mean.edf.hpt"
+"HP_only",7663.17,NA,2152.84,2198.42,2120.25,2141.07,2240.43,2075.26,1764.09,0,0,0,0,0,0,1919.68
+"VX",5391.29,1631.54,1532.62,1605.11,1548.86,1395.71,1570.06,1506,1235.57,66.89,266.18,369.94,127.07,244.73,130.52,1375.63
