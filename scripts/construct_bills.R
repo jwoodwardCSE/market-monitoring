@@ -68,9 +68,9 @@ unique(bills_24$window)
   
   ## Join with consumption profiles
   bills_24  <- left_join(consumption, prices_24, by = c("month", "window","weekend"))%>%
-    mutate(edf.hpt.unit=case_when(window>=4&window<7~(oct.fix.jan24_unit-10),
-                                  window>=13&window<16~(oct.fix.jan24_unit-10),
-                                  TRUE~oct.fix.jan24_unit)) #Added to include edf heat pump tracker
+    mutate(edf.hpt.unit=case_when(window>=4&window<7~(flex.oct_unit-10),
+                                  window>=13&window<16~(flex.oct_unit-10),
+                                  TRUE~flex.oct_unit)) #Added to include edf heat pump tracker
   
   ## Calculate bills for all personas, for all tariffs
   bills_24_tab <- bills_24 %>% group_by(archetype) %>%
